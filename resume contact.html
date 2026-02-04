@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact">
+    <h1>Feedback Form</h1>
+    <hr>
+    <p>Heyyyyyy thereeee! I'm glad you've made it here!!😊😊</p>
+
+    <form action="">
+
+    <table>
+        <tr>
+            <td><p><b>Name</b></p></td>
+            <td><input type="text" placeholder="Enter yo name:"></td>
+        </tr>
+        <tr>
+            <td><p><b>Email</b></p></td>
+            <td><input type="Email" placeholder="exp: rizal@gmail.com"></td>
+        </tr>
+        <tr>
+        <td><p><b>DATE</b></p></td>
+        <td><input type="Date"></td></tr>
+        <tr>
+            <td><p><b>Gender</b></p></td>
+            <td><input type="radio" name="" id="" value="">Male <input type="radio" name="" id="">Female</td>
+        </tr>
+        <tr>
+            <td><p><b>Website mark</b></p></td>
+            <td><input type="Range" min="0" max="100" value="50" oninput="document.getElementById('rangevalue').textContent=this.value">
+                <label for=""><span id="rangevalue">50</span>%</label></td>
+        </tr>
+        <tr>
+            <td><p><b>Where to <br>contact me</b></p></td>
+            <td>
+                <input type="checkbox">LinkedIn<br>
+                <input type="checkbox" name="" id="">Jobstreet <br>
+                <input type="checkbox">Instagram
+            </td>
+            <td>
+                <input type="checkbox">Facebook<br>
+                <input type="checkbox" name="" id="">WhatsApp<br>
+                <input type="checkbox">Wechat
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+    <tr>
+        <td><p><b>Additionals</b></p></td>
+        <td><textarea name="" id="" rows="5" cols="50"></textarea></td>
+    </tr>
+    </table>
+    <input type="SUbmit" value="SUBMIT"> <input type="Reset" value="RESET">
+    </form>
+
+</body>
+</html>
